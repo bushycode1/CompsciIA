@@ -3,21 +3,25 @@ h1{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(38, 33, 33)
+    background-color: rgb(38, 33, 33);
     padding: 0px;
     margin: 0px;
-    overflow: hidden
+    overflow: hidden;
 }
 .navbar a{
-    color: white
+    color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover{
-    background-color:black
+    background-color:black;
 }
 .navbar li{
-    float: left
+    float: left;
+}
+#tim{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
 }
