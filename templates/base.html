@@ -1,14 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>{% block title %}{% endblock %}</title>
-    <link rel = "stylesheet" href = "{{ url_for('static', filename='style.css') }}">
-    </head>
-    <body>
-        <h1 id = "tim" >Tim's website</h1>
-        {% block content %}
-        {% endblock %}
-        <nav class = "navbar">
+    <nav class = "navbar">
             <ul>
                 <li><a href=" ">Home</a></li>
                 <li><a href=" ">Profile</a></li>
@@ -16,6 +9,13 @@
                 <li><a href=" ">Users</a></li>
             </ul>
         </nav>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1 id = "tim">Hannah's Happy Hebsite</h1>
+        {% block content %}
+        {% endblock %}
 
         <main>
             <h3>This is home page</h3>
