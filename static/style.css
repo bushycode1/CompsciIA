@@ -7,6 +7,9 @@ h1{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .navbar a{
     color: white;

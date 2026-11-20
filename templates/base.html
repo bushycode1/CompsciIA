@@ -3,23 +3,19 @@
 <head>
     <nav class = "navbar">
             <ul>
-                <li><a href=" ">Home</a></li>
+                <li><a href="{{url_for('home')}}">Home</a></li>
                 <li><a href=" ">Profile</a></li>
                 <li><a href=" ">Instruments</a></li>
                 <li><a href=" ">Users</a></li>
+                <li><a href="{{url_for('logout')}}">Log Out</a></li>
             </ul>
         </nav>
     <title>{% block title %}{% endblock %}</title>
     <link rel = "stylesheet" href = "{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
-        <h1 id = "tim">Hannah's Happy Hebsite</h1>
+        <h1 id = "tim" >Hannah's Happy Hebsite</h1>
         {% block content %}
         {% endblock %}
-
-        <main>
-            <h3>This is home page</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi magni quae odit ullam totam error velit aliquid voluptas exercitationem mollitia, nesciunt sed. Necessitatibus dolorem culpa qui reiciendis nesciunt quod facere?</p>
-        </main>
     </body>
 </html>
